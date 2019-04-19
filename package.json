@@ -5,6 +5,8 @@
   "publishConfig": {
     "access": "public"
   },
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
@@ -24,10 +26,10 @@
     "test:coverage:codecov": "codecov",
     "test:watch": "jest --watch",
     "ts:build": "tsc",
-    "eslint": "eslint src/**/*",
-    "eslint:fix": "eslint --fix src/**/*",
+    "eslint": "eslint src/**/*.ts",
+    "eslint:fix": "eslint --fix src/**/*.ts",
     "ts:watch": "tsc -w",
-    "verify": "npm run verify:npmvet && npm run verify:david && npm run verify:audit && npm run verify:tscheck && npm run tslint && npm run test",
+    "verify": "npm run verify:npmvet && npm run verify:david && npm run verify:audit && npm run verify:tscheck && npm run eslint && npm run test",
     "verify:circleci": "circleci config validate",
     "verify:ci": "npm run verify:npmvet && npm run verify:audit && npm run test:ci",
     "verify:check": "depcheck",
@@ -44,6 +46,7 @@
     "@babel/preset-env": "7.4.3",
     "@babel/preset-typescript": "7.3.3",
     "@types/jest": "24.0.11",
+    "@types/node": "11.13.5",
     "@typescript-eslint/eslint-plugin": "1.6.0",
     "@typescript-eslint/parser": "1.6.0",
     "all-contributors-cli": "6.3.1",
@@ -53,10 +56,11 @@
     "eslint": "5.16.0",
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-plugin-import": "2.17.2",
+    "eslint-plugin-jest": "22.4.1",
     "jest": "24.7.1",
     "lint-staged": "8.1.5",
     "npmvet": "0.1.5",
-    "semantic-release": "15.13.3",
+    "semantic-release": "15.13.12",
     "ts-jest": "24.0.2",
     "typescript": "3.4.4"
   },

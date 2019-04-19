@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Solarized Dark should match snapshot 1`] = `
+Object {
+  "charts": Object {
+    "axis": Object {
+      "legendColor": "#90a2a4",
+      "textColor": "#90a2a4",
+      "tickColor": "#90a2a4",
+    },
+    "colors": Array [
+      "#00b2b0",
+      "#24dead",
+      "#d9d356",
+      "#f1c4c2",
+      "#dfbbe8",
+    ],
+    "grid": Object {
+      "stroke": "#073642",
+    },
+    "tooltip": Object {
+      "background": "#073c49",
+      "borderRadius": 0,
+      "boxShadow": "0 1px 3px rgba(0, 0, 0, 0.5)",
+      "color": "#bed0d2",
+      "fontSize": "1.4vmin",
+    },
+  },
+  "colors": Object {
+    "background": "#073642",
+    "failure": "#dc322f",
+    "icon": "#0badc2",
+    "success": "#859900",
+    "text": "#90a2a4",
+    "textHighlight": "#eee8d5",
+    "unknown": "#495b71",
+    "warning": "#b58900",
+  },
+  "dashboard": Object {
+    "header": Object {
+      "background": "#002b36",
+      "title": Object {
+        "color": "#eee8d5",
+        "fontSize": "1.8vmin",
+      },
+    },
+    "player": Object {
+      "slash": Object {
+        "color": "#0badc2",
+        "margin": "0 0.8vmin",
+      },
+    },
+  },
+  "label": Object {
+    "addon": Object {
+      "background": "#00242f",
+      "color": "#93a1a1",
+    },
+    "background": "#073642",
+    "extend": "
+        border-radius: 2px;
+        ",
+    "main": Object {
+      "color": "#839496",
+    },
+  },
+  "list": Object {
+    "item": Object {
+      "hover": Object {
+        "background": "#002834",
+      },
+      "meta": Object {
+        "fontSize": "1.4vmin",
+      },
+    },
+  },
+  "name": "solarized dark",
+  "notifications": Object {
+    "item": Object {
+      "background": "#073642",
+      "color": "#b3c5c7",
+      "extend": "
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+            ",
+      "padding": "1.2vmin 2vmin",
+    },
+  },
+  "root": Object {
+    "background": "#073642",
+    "extend": "
+        @import url('https://fonts.googleapis.com/css?family=Space+Mono');
+        
+        & a {
+            text-decoration: underline;
+        }
+        ",
+    "fontFamily": "'Space Mono', Consolas, monospace",
+    "fontSize": "1.6vmin",
+    "lineHeight": "2.8vmin",
+  },
+  "typography": Object {
+    "default": Object {
+      "default": Object {
+        "fontFamily": "'Space Mono', Consolas, monospace",
+        "fontSize": "1.8vmin",
+        "fontWeight": 400,
+        "lineHeight": "1.5em",
+      },
+      "small": Object {
+        "fontSize": "1.6vmin",
+      },
+      "strong": Object {
+        "fontWeight": 600,
+      },
+    },
+    "display": Object {
+      "default": Object {
+        "fontFamily": "'Space Mono', Consolas, monospace",
+        "fontSize": "1.8vmin",
+        "lineHeight": "1.4em",
+      },
+    },
+    "mono": Object {
+      "default": Object {
+        "fontFamily": "'Space Mono', Consolas, monospace",
+        "fontSize": "1.8vmin",
+        "lineHeight": "1.4em",
+      },
+    },
+  },
+  "widget": Object {
+    "background": "#002b36",
+    "header": Object {
+      "count": Object {
+        "color": "#eee8d5",
+      },
+      "height": "5vmin",
+      "icon": Object {
+        "color": "#0badc2",
+        "fontSize": "2vmin",
+      },
+      "subject": Object {},
+    },
+    "wrapper": Object {
+      "padding": "0.6vmin",
+    },
+  },
+}
+`;

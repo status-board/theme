@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Charts should match snapshot 1`] = `
+Object {
+  "axis": Object {
+    "legendColor": "hsl(6, 26%, 67%)",
+    "textColor": "hsl(6, 26%, 67%)",
+    "tickColor": "hsl(6, 26%, 67%)",
+  },
+  "colors": Array [
+    "#a52818",
+    "#e46a55",
+    "#bd532e",
+    "#9b2c13",
+    "#E43D24",
+  ],
+  "grid": Object {
+    "stroke": "#321515",
+  },
+  "tooltip": Object {
+    "background": "#501919",
+    "borderRadius": 0,
+    "boxShadow": "0 2px 5px rgba(0, 0, 0, 0.6)",
+    "color": "hsl(10, 60%, 90%)",
+    "fontSize": "1.4vmin",
+  },
+}
+`;
