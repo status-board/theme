@@ -3,7 +3,7 @@
 
 @status-board/themes
 
-`npm i --save-dev @status-board/themes`
+`npm i --save @status-board/themes`
 
 ## Contributors
 
