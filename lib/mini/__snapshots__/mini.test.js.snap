@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mini should match snapshot 1`] = `
+Object {
+  "charts": Object {
+    "axis": Object {
+      "legendColor": "#000",
+      "textColor": "#000",
+      "tickColor": "#000",
+    },
+    "colors": Array [
+      "#b3e2cd",
+      "#fdcdac",
+      "#cbd5e8",
+      "#f4cae4",
+      "#e6f5c9",
+    ],
+    "grid": Object {
+      "stroke": "#eee",
+    },
+    "tooltip": Object {
+      "background": "#fff",
+      "border": "1px solid #000",
+      "borderRadius": 0,
+      "boxShadow": "none",
+      "color": "#000",
+      "fontSize": "1.4vmin",
+    },
+  },
+  "colors": Object {
+    "failure": "#ff9176",
+    "icon": "#000",
+    "success": "#4eb6a3",
+    "text": "#000",
+    "textHighlight": "#000",
+    "unknown": "#c0ab7f",
+    "warning": "#d1be65",
+  },
+  "dashboard": Object {
+    "header": Object {
+      "title": Object {},
+    },
+  },
+  "label": Object {
+    "addon": Object {
+      "extend": "
+            font-weight: 700;
+            &:first-child {
+                padding-right: 1.4vmin;
+                border-right: 1px dotted #000;
+            }
+            &:last-child {
+                padding-left: 1.4vmin;
+                border-left: 1px dotted #000;
+            }
+            & + .Label {
+                padding-left: 1.4vmin;
+            }
+            .Label + & {
+                margin-left: 1.4vmin;
+            }
+            ",
+      "padding": "1vmin 0.6vmin",
+    },
+    "extend": "
+        line-height: 1em;
+        border-top: 1px dotted #000;
+        border-bottom: 1px dotted #000;
+        align-items: baseline;
+        ",
+    "main": Object {
+      "padding": "1vmin 0.2vmin",
+    },
+  },
+  "list": Object {
+    "item": Object {
+      "extend": "
+            border-bottom: 1px solid #000;
+            &:last-child {
+                border-bottom: 0;
+            }
+            ",
+      "meta": Object {
+        "extend": "
+                font-weight: 300;
+                ",
+        "fontSize": "1.4vmin",
+      },
+      "padding": "1vmin 0",
+    },
+  },
+  "name": "mini",
+  "notifications": Object {
+    "item": Object {
+      "background": "#000",
+      "color": "#fff",
+      "extend": "
+            font-weight: 300;
+            ",
+      "padding": "1.2vmin 2vmin",
+    },
+  },
+  "root": Object {
+    "background": "#fff",
+    "extend": "
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700');
+        & a {
+            font-weight: 700;
+        }
+        & img {
+            filter: grayscale(100%);
+        }
+        ",
+  },
+  "typography": Object {
+    "default": Object {
+      "default": Object {
+        "fontFamily": "'Roboto Mono', monospace",
+        "fontSize": "1.8vmin",
+        "fontWeight": 400,
+        "lineHeight": "1.5em",
+      },
+      "small": Object {
+        "fontSize": "1.6vmin",
+      },
+      "strong": Object {
+        "fontWeight": 600,
+      },
+    },
+    "display": Object {
+      "default": Object {
+        "fontFamily": "'Roboto Mono', monospace",
+        "fontSize": "1.8vmin",
+        "fontWeight": 700,
+        "lineHeight": "1.5em",
+      },
+    },
+  },
+  "widget": Object {
+    "header": Object {
+      "count": Object {
+        "extend": "
+                font-weight: 700;
+                vertical-align: baseline;
+                ",
+      },
+      "extend": "
+            border-top: 2px solid #000;
+            align-items: flex-start;
+            ",
+      "icon": Object {
+        "extend": "
+                display: none;
+                ",
+      },
+      "padding": "0.8vmin 0 0 0",
+      "subject": Object {},
+    },
+    "wrapper": Object {
+      "padding": "1.6vmin 3vmin",
+    },
+  },
+}
+`;

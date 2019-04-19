@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snow should match snapshot 1`] = `
+Object {
+  "charts": Object {
+    "axis": Object {
+      "legendColor": "#333",
+      "textColor": "#333",
+      "tickColor": "#bbb",
+    },
+    "colors": Array [
+      "#82c2de",
+      "#ade0de",
+      "#dad7a3",
+      "#b3deff",
+      "#baab89",
+    ],
+    "grid": Object {
+      "stroke": "#eee",
+    },
+    "tooltip": Object {
+      "background": "#fff",
+      "borderRadius": "2px",
+      "boxShadow": "0 5px 9px rgba(0, 0, 0, 0.15)",
+      "color": "#333",
+      "fontSize": "1.4vmin",
+    },
+  },
+  "colors": Object {
+    "background": "#ebf0f1",
+    "failure": "#e37856",
+    "icon": "#0badc2",
+    "success": "#8ddb8d",
+    "text": "#333",
+    "unknown": "#d3dfe8",
+    "warning": "#d1be65",
+  },
+  "dashboard": Object {
+    "header": Object {
+      "background": "#fff",
+      "boxShadow": "0 1px 3px rgba(0, 0, 0, .15)",
+      "padding": "0 3.6vmin",
+      "title": Object {
+        "color": "#000",
+        "fontFamily": "'Montserrat', sans-serif",
+        "fontSize": "2vmin",
+      },
+    },
+    "player": Object {
+      "slash": Object {
+        "color": "#0badc2",
+        "fontSize": "2.2vmin",
+      },
+    },
+  },
+  "label": Object {
+    "addon": Object {
+      "background": "#ebf0f1",
+      "color": "#000",
+    },
+    "extend": "
+        border-radius: 2px;
+        border: 1px solid #ddd;
+        ",
+  },
+  "list": Object {
+    "item": Object {
+      "extend": "
+            border-bottom: 1px solid #ebf0f1;
+            &:last-child {
+                border-bottom: 0;
+            }
+            ",
+      "hover": Object {
+        "background": "#eee",
+      },
+      "meta": Object {
+        "color": "#777",
+        "fontSize": "1.4vmin",
+      },
+    },
+  },
+  "name": "snow",
+  "notifications": Object {
+    "item": Object {
+      "background": "#fff",
+      "extend": "
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+            border-radius: 2px;
+            font-size: 1.6vmin;
+            ",
+      "padding": "1.2vmin 2vmin",
+    },
+  },
+  "root": Object {
+    "background": "#ebf0f1",
+    "color": "#333",
+    "extend": "
+        @import url(\\"https://fonts.googleapis.com/css?family=Open+Sans:400,200,600,700|Montserrat:400,700\\");
+        
+        & a {
+            color: #2d7189;
+        }
+        ",
+  },
+  "widget": Object {
+    "background": "#fff",
+    "body": Object {
+      "top": "5vmin",
+    },
+    "extend": "
+        border-radius: 2px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        ",
+    "header": Object {
+      "background": "#fafafa",
+      "count": Object {
+        "extend": "
+                border-radius: 2vmin;
+                padding: 0.4vmin 1.2vmin;
+                border: 1px solid #ddd;
+                ",
+      },
+      "extend": "
+            border-bottom: 1px solid #ebf0f1;
+            border-radius: 2px 2px 0 0;
+            ",
+      "height": "5vmin",
+      "icon": Object {
+        "color": "#8fccd2",
+        "fontSize": "2.6vmin",
+      },
+      "subject": Object {
+        "color": "#000",
+      },
+    },
+    "wrapper": Object {
+      "padding": "1vmin",
+    },
+  },
+}
+`;
